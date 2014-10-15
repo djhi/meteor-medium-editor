@@ -1,1 +1,5 @@
 .DS_Store
+.build*
+/medium-editor
+/medium-editor-insert-plugin
+versions.json
