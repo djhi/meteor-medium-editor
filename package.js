@@ -5,8 +5,15 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-	api.versionsFrom('METEOR@0.9.2');
-	api.add_files(['medium-editor.css','medium-editor.js', 'medium-editor-insert-plugin.all.min.js','medium-editor-insert-plugin.css'], 'client');
+	api.versionsFrom('METEOR@0.9.0');
+	var files = [
+		'medium-editor.css',
+		'medium-editor.js', 
+		'insert-plugin/js/medium-editor-insert-plugin.all.js',
+		'insert-plugin/css/medium-editor-insert-plugin.css'
+	];
+
+	api.add_files(files, 'client');
 
 	if(api.export)
 		api.export('MediumEditor', 'client');
