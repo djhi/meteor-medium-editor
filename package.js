@@ -1,5 +1,5 @@
 Package.describe({
-	name: "citizenkevin:medium-editor",
+	name: "donflopez:medium-editor",
 	summary: "Add medium-editor clone and insert plugin to Meteor client side",
 	version: "1.2.3"
 });
