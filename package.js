@@ -1,7 +1,8 @@
 Package.describe({
 	name: "citizenkevin:medium-editor",
-	summary: "Add medium-editor clone and insert plugin to Meteor client side",
-	version: "1.2.3"
+	summary: "MediumEditor with Default Theme + MediumEditor Jquery Insert Plugin",
+	version: "1.0.1",
+	git: 'https://github.com/CitizenKevin/meteor-medium-editor'
 });
 
 Package.on_use(function (api) {

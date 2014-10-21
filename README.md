@@ -9,7 +9,7 @@
 > 
 > Tested on Google Chrome, Firefox and IE9+.
 
-See https://github.com/daviferreira/medium-editor 
+https://github.com/daviferreira/medium-editor 
 
 ##Medium Editor JQuery Insert Plugin
 > This plugin expands capabilities of MediumEditor (a clone of medium.com WYSIWYG editor).
